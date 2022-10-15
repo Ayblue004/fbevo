@@ -5,7 +5,6 @@ function Navbar(){
         <nav>
             <div className="navbar">
                 <h4 className='logo'>fbEvo</h4>
-                <span className='head'>What is fbEvo?</span>
                 <select>
                     <option>2004</option>
                     <option>2005</option>

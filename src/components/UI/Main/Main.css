@@ -5,10 +5,10 @@
 }
 .ui{
     padding: 10rem;
-    background-color:  #4267B2;
     height: 80vh;
     max-height: 80vh;
     width: 90%;
     max-width:1200px;
-    border-radius: 0.7rem;    
+    border-radius: 0.7rem;
+    border: 2px solid black;    
 }

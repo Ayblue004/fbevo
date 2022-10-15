@@ -1,10 +1,10 @@
 import './Main.css'
 
-function Main(){
+const Main=(props)=>{
     return(
         <div className='alpha'>
             <div className="ui">
-
+                {props.children}
             </div>  
         </div>
     )
