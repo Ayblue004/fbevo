@@ -7,8 +7,21 @@
     padding: 10rem;
     height: 80vh;
     max-height: 80vh;
-    width: 90%;
-    max-width:1200px;
+    width: 75vw;
+    background-color: white;
     border-radius: 0.7rem;
-    border: 2px solid black;    
+    -webkit-box-shadow: 5px 5px 15px 5px #009E60; 
+    box-shadow: 5px 5px 15px 5px #009E60;   
+}
+
+@media only screen and (max-width:767px){
+.alpha{
+    padding: 1rem;
+}
+}
+
+@media only screen and (min-width:1200px){
+    .ui{
+        width: 70vw;
+    }
 }

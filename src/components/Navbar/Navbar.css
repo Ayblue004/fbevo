@@ -6,15 +6,15 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: #4267B2;
-    ;
+    background: transparent;
 }
 
 select{
     padding: 0.1rem 1.3rem;
-    background-color: #4267B2;
+    background: transparent;
     color: white;
-    border: 1px solid white;
+    background-color: rgba(51,21,110,1);
+    border: 2px transparent;
     border-radius: 0.45rem;
     font-size: 1rem;
 }

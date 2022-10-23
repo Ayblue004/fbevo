@@ -1,4 +1,21 @@
+.App{
+    background: linear-gradient(59deg, rgba(7,18,68,1) 0%, rgba(29,9,97,1) 77%, rgba(51,21,110,1) 100%);
+    overflow: hidden;
+    padding: 0 3rem;
+}
 .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+@media screen and (max-width:767px){
+    .App{
+        padding: 1rem;
+    }
+}
+@media only screen and (min-width:1700px){
+    .App{
+        padding:2rem 7rem;
+    }
 }
